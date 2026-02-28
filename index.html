@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Aeryx page</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <div class="background"></div>
+
+<div class="container">
+
+  <div class="profile-wrapper">
+    <div class="aura"></div>
+    <img src="https://i.imgur.com/T5UhDT6.png" class="profile-pic">
+    <div class="verified-badge">✔</div>
+  </div>
+
+  <h1 class="neon-text">Aeryx</h1>
+
+  <p class="description">
+    🎮 Roblox Developer <br>
+    🎵 TikTok Creator <br>
+    👑 14 ans <br>
+    🚀 Créateur de jeux <br>
+    ❗veuillez cliquer n'importe ou pour que le son arrive
+  </p>
+
+  <p class="counter">
+    👑 Visiteurs : <span id="visitCount">...</span>
+  </p>
+
+  <button class="btn btn2" onclick="goToLink('tiktok')">🎵 TikTok</button>
+  <button class="btn btn3" onclick="goToLink('instagram')">📷 Instagram</button>
+  <button class="btn btn4" onclick="goToLink('roblox')">🎮 Roblox</button>
+
+  <!-- 🎚 Volume -->
+  <div class="volume-container">
+    🔊 Volume
+    <input type="range" id="volumeSlider" min="0" max="100" value="50">
+  </div>
+
+</div>
+
+<div id="player" style="display:none;"></div>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
